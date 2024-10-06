@@ -17,11 +17,10 @@ You can check out the live demo [here](#).
 
 ```
 /src
-  ├── /components
-  │    ├── App.jsx
-  │    ├── WeatherApp.jsx
-  │    ├── SearchBox.jsx
-  │    └── InfoBox.jsx
+  ├── App.jsx
+  ├── WeatherApp.jsx
+  ├── SearchBox.jsx
+  ├── InfoBox.jsx
   ├── index.js
   ├── App.css
   └── index.css
