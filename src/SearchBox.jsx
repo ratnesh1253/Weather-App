@@ -52,6 +52,13 @@ export default function SearchBox({ updateInfo }) {
     <div className="SearchBox">
       <form onSubmit={handleSubmit}>
         <TextField
+          sx={{
+            "& .MuiOutlinedInput-root": {
+              "&:not(.Mui-focused) .MuiOutlinedInput-notchedOutline": {
+                borderColor: "blue",
+              },
+            },
+          }}
           label="City Name"
           id="city"
           size="small"
